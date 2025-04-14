@@ -28,7 +28,7 @@ setup(
     keywords=["audio", "compression", "machine learning"],
     install_requires=[
         "argbind>=0.3.7",
-        "git+https://github.com/Redbeard-himalaya/audiotools",
+        "audiotools@git+ssh://git@github.com:Redbeard-himalaya/audiotools.git",
         "einops",
         "numpy",
         "torch",
